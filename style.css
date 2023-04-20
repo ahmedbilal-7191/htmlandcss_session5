@@ -1,0 +1,133 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* header{
+    padding: 2px 0px;
+} */
+.header_logo{
+    width: 130px;
+    height: 58px;
+    /* border: 2px solid red; */
+}
+.header_nav{
+    /* text-decoration: none; */
+    /* border: 2px solid red; */
+    width: 44%;
+    /* margin: auto; */
+    margin: 22px 15px;
+}
+.header_nav a{
+    /* background-color: green; */
+    /* width: 50px; */
+    margin: 20px;
+    padding: 10px;
+    color: #172b4d;
+    text-decoration: none;
+}
+.header_nav a:hover{
+    color:#0065ff ;
+}
+.header_btn{
+    width: 20%;
+    /* border: 2px solid green; */
+    margin: 20px 0px 20px 22%;
+}
+/* .header_btn a{
+    text-decoration: none;
+    color: #172b4d;
+    margin: auto;
+    padding: 20px;
+    background-color: #0065ff;
+
+} */
+.hbtn1{
+    text-decoration: none;
+    color: #172b4d;
+    /* margin: auto; */
+    padding: 20px;
+}
+.hbtn2{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    /* font-style: bold; */
+    /* font-size: 20px; */
+    background-color: #0065ff;
+    /* margin: auto; */
+    padding: 26px;
+}
+.hbtn2:hover{
+    background-color: rgb(53, 53, 143);
+}
+.example2{
+    margin-top: 0%;
+    padding: 3PX;
+    background-color: #5243AA;
+}
+.box1{
+    padding: 4%;
+    /* border: 2px solid yellow; */
+    width: 40%;
+    margin: auto;
+    color: white;
+    /* font: 48px; */
+    /* font-size: 38px; */
+}
+.box1 img{
+    width: 100%;
+}
+.box1 h1{
+    /* border: 2px solid black; */
+    width: 80%;
+    font-size: 48px;
+    font-weight: 700;
+}
+.box1 p{
+    width: 85%;
+    font-weight: 500;
+    font-size: 20px;
+    /* border: 2px solid black; */
+}
+.wvid{
+    /* margin-top: 3%; */
+    /* padding-top: 15px; */
+    /* border: 2px solid pink; */
+    color: white;
+    text-decoration: underline white;
+}
+.wvid:hover{
+    color: whitesmoke;
+    text-decoration: underline whitesmoke;
+}
+/* .em input{
+    width: 30%;
+} */
+.ip{
+    width: 47%;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+}
+.st{
+    /* border: none; */
+    text-decoration: none;
+    margin: 15px 0px 10px 18px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #0065ff;
+}
+.st:hover{
+    background-color: rgb(53, 53, 143);
+}
