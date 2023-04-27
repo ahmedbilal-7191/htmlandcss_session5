@@ -105,11 +105,11 @@ body{
     /* padding-top: 15px; */
     /* border: 2px solid pink; */
     color: white;
-    text-decoration: underline white;
+    text-decoration:none;
 }
 .wvid:hover{
     color: whitesmoke;
-    text-decoration: underline whitesmoke;
+/*     text-decoration: underline whitesmoke; */
 }
 /* .em input{
     width: 30%;
